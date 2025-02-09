@@ -1,0 +1,33 @@
+import pygame
+
+# Screen dimensions
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+
+# Colors
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+
+# Game settings
+FPS = 30
+MAX_ENEMIES = 30  
+ENEMY_SPAWN_INTERVAL = 0.5  
+
+# Player settings
+PLAYER_WIDTH = 50
+PLAYER_HEIGHT = 100
+PLAYER_START_HP = 100
+PLAYER_HEAL_AMOUNT = 5
+PLAYER_HEAL_INTERVAL = 10
+
+# Enemy settings
+ENEMY_WIDTH = 50
+ENEMY_HEIGHT = 100
+ENEMY_SPEED = 2  
+ENEMY_ATTACK_INTERVAL = 1
+
+# Font settings
+FONT_SIZE = 36
